@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Recarga de Celular</h1>
+        <h2>Operadora ATIM</h2>
+        <form id="form-recarga">
+            <input type="number" id="valor-recarga" required placeholder="Valor da recarga" />
+            <input type="number" id="numero-telefone" required placeholder="Numero de telefone" />
+            <p class="error-message">                                                                         
+                Preencha corretamente o número do telefone
+            </p>
+            <button id="btn-recarregar" type="submit">Recarregar</button>
+        </form>
+        <p class="sucess-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
