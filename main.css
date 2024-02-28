@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #030303;
+    padding: 16px 0;
+    color: #ffffff;
+    display: flex;
+    border-bottom: 16px solid #383838;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header img {
+    height: 45px;
+    margin-right: 16px;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #c0c2c4;
+    padding: 24px;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#botao-limpar {
+    background-color: red;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+ul {
+    text-align: center;
+    margin-top: 8px;
+    list-style-type: circle;
+}
+
+ul li {
+    max-width: 100%;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.riscado {
+    text-decoration:line-through;
+}
+
+.main-footer {
+    background-color: #030303;
+    justify-content: center;
+    color: #fff;
+    padding: 16px 0;
+    display: flex;
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
